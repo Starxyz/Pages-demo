@@ -3,5 +3,7 @@ $(document).ready(function(){
         $(this).css("color","black");
     });
 
-    $(this).css("background-color","white");
+    $("body").on('click', function(){
+        $(this).css("background-color","white");
+    });
 });
